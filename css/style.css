@@ -273,11 +273,20 @@ button {
    GLOBAL SECTION LAYOUT
    ========================================== */
 
+main {
+    padding-top: var(--navbar-height);
+}
+
 section {
-    padding: 100px 40px;
+    padding: 70px 24px;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    border-bottom: 1px dashed var(--color-border);
+}
+
+section:last-of-type {
+    border-bottom: none;
 }
 
 .section-title {
@@ -1235,46 +1244,101 @@ section {
 }
 
 /* ==========================================
-   LIVE STATUS BAR & CLOCK
+   FUTURISTIC HUD TIME & STATUS WIDGET
    ========================================== */
 
-.live-status-bar {
+.hud-time-widget {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--color-bg-glass);
+    border: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border-glow);
+    border-radius: 50px;
+    padding: 8px 22px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 0 15px var(--color-primary-glow);
+    flex-wrap: wrap;
+    transition: all var(--transition-normal);
+}
+
+.hud-time-widget:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 20px var(--color-primary-glow);
+    transform: translateY(-2px);
+}
+
+.hud-status-chip {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background-color: var(--color-bg-glass);
-    border: 1px solid var(--color-border);
-    border-radius: 50px;
-    padding: 6px 16px;
-    font-size: 12.5px;
-    font-weight: 600;
-    color: var(--color-text-secondary);
-    margin-bottom: 24px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.pulse-dot {
-    width: 8px;
-    height: 8px;
+.pulse-radar {
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
-    display: inline-block;
-}
-
-.pulse-dot.green {
     background-color: var(--color-accent);
-    box-shadow: 0 0 8px var(--color-accent);
-    animation: status-pulse 2s infinite;
+    box-shadow: 0 0 10px var(--color-accent);
+    animation: status-pulse 1.8s infinite;
 }
 
-.live-divider {
-    color: var(--color-border);
-    margin: 0 4px;
-}
-
-#dhaka-clock {
-    font-family: var(--font-code);
-    color: var(--color-primary);
+.hud-status-text {
     font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+}
+
+.hud-divider {
+    color: var(--color-border);
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.hud-clock-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-code);
+}
+
+.globe-spin {
+    color: var(--color-primary);
+    font-size: 14px;
+    animation: slow-spin 20s linear infinite;
+}
+
+@keyframes slow-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.hud-loc {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    letter-spacing: 1px;
+}
+
+.hud-time-display {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-shadow: 0 0 10px var(--color-primary-glow);
+    letter-spacing: 0.5px;
+}
+
+.hud-gmt-tag {
+    font-size: 10px;
+    font-weight: 800;
+    background-color: var(--color-primary-glow);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
 }
 
 .icon-only-btn {
@@ -1565,6 +1629,30 @@ section {
     background-color: var(--color-primary-dark);
     box-shadow: 0 0 20px var(--color-primary-glow);
     transform: translateY(-4px);
+}
+
+/* ==========================================
+   MULTI-PAGE SINGLE PAGE APP TAB SWITCHER
+   ========================================== */
+
+/* ==========================================
+   UNIFIED SEAMLESS FLOW LAYOUT
+   ========================================== */
+
+main > section {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+@keyframes fadeInTab {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* ==========================================
