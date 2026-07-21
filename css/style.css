@@ -390,8 +390,8 @@ section:last-of-type {
     min-height: calc(100vh - var(--navbar-height));
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 40px;
+    justify-content: flex-start;
+    padding-top: 80px;
     padding-bottom: 60px;
 }
 
