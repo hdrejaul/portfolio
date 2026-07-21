@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejaul Karim | Premium Portfolio - Technical Executive & RMA Specialist</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Professional portfolio of Rejaul Karim, a Technical Executive & RMA Specialist with 5+ years of experience in PCB troubleshooting, micro-soldering, and hardware diagnostics.">
+    <meta name="keywords" content="Rejaul Karim, RMA Specialist, Technical Executive, PCB Troubleshooting, Electronics Repair, Hardware Quality Control, Dhaka, Bangladesh, Mobile Phone Servicing">
+    <meta name="author" content="Rejaul Karim">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Rejaul Karim | Technical Executive & RMA Specialist">
+    <meta property="og:description" content="5+ years of expertise in hardware diagnostics, micro-soldering, and PCB repair. Check out my interactive diagnostic terminal.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/d/13cOGCDj6LZ_tLrWw9UlSdH1qCfG_D_mv">
+    <meta property="og:url" content="https://hdrejaul.github.io">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Dynamic Particle Grid Canvas -->
+    <canvas id="circuit-canvas"></canvas>
+
+    <!-- Top Navigation Header -->
+    <header class="main-header">
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                <a href="#home">REJAUL<span>.K</span></a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Work</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#equipment" class="nav-link">Arsenal</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <!-- Light / Dark Mode Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle visual theme" title="Toggle Light/Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <button class="hamburger" id="hamburger-btn" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-info">
+                    <div class="live-status-bar">
+                        <span class="pulse-dot green"></span>
+                        <span class="live-status-text">Available for Executive Roles & RMA Consulting</span>
+                        <span class="live-divider">•</span>
+                        <i class="fa-regular fa-clock"></i>
+                        <span id="dhaka-clock">Dhaka, BD (Loading...)</span>
+                    </div>
+                    <h1 class="hero-title">Hi, I'm <br><span class="highlight">Rejaul Karim</span></h1>
+                    <div class="typing-container">
+                        <span class="typing-static">Expert </span><span id="dynamic-title" class="typing-dynamic"></span>
+                    </div>
+                    <p class="hero-desc">
+                        Dedicated Technical Executive with nearly 5 years of professional experience in electronics production, advanced diagnostics, micro-component level PCB repair, and hardware quality validation. Expert in deploying structured workflows to optimize diagnostic cycles and secure zero-defect output.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="cta-btn primary-btn"><i class="fa-solid fa-envelope-open-text"></i> Hire Me</a>
+                        <a href="https://hdrejaul.github.io/portfolio/RMA%20%26%20QC%20Specialist%20CV%20-%20Rejaul%20Karim.pdf" target="_blank" rel="noopener" download="RMA & QC Specialist CV - Rejaul Karim.pdf" id="download-cv-btn" class="cta-btn secondary-btn"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+                        <a href="https://github.com/hdrejaul" target="_blank" rel="noopener" class="cta-btn icon-only-btn" title="GitHub Profile" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-glow-ring"></div>
+                    <div class="profile-card">
+                        <img class="profile-image" src="https://lh3.googleusercontent.com/d/13cOGCDj6LZ_tLrWw9UlSdH1qCfG_D_mv" alt="Rejaul Karim portrait">
+                        <div class="status-overlay">
+                            <span class="status-indicator-dot"></span>
+                            <span class="status-text">Available for RMA Consultations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Stats Strip -->
+            <div class="quick-stats">
+                <div class="stat-card spotlight-card">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-user-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" data-count="5" data-suffix="+">5+</span>
+                        <span class="stat-label">Years Field Experience</span>
+                    </div>
+                </div>
+
+                <div class="stat-card spotlight-card">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" data-count="4" data-suffix=" Certs">4 Certs</span>
+                        <span class="stat-label">Govt & Tech Certifications</span>
+                    </div>
+                </div>
+
+                <div class="stat-card spotlight-card">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-shield-check"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number" data-count="99" data-suffix="%">99%</span>
+                        <span class="stat-label">Diagnostic Accuracy</span>
+                    </div>
+                </div>
+
+                <div class="stat-card spotlight-card">
+                    <div class="stat-icon-wrapper">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">NSDA L-2</span>
+                        <span class="stat-label">Certified Mobile Specialist</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me & Philosophy -->
+        <section id="about" class="about-section">
+            <h2 class="section-title text-center">About <span>My Mission</span></h2>
+            <div class="about-grid">
+                <div class="about-text-content">
+                    <h3>Solving Complex Hardware Failures</h3>
+                    <p class="about-paragraph">
+                        My career operates at the intersection of precision engineering and advanced hardware diagnostics. Over the past five years, I have refined my ability to locate microscopic electrical faults, resolve hardware instabilities, and streamline reverse logistics (RMA) workflows. 
+                    </p>
+                    <p class="about-paragraph">
+                        I believe in zero-defect quality control. Whether diagnosing complex multi-layered PCBs or performing delicate micro-soldering under a microscope, my approach relies on scientific methodology—using thermal imaging, digital oscilloscopes, and precise signal tracking to diagnose issues at their root cause.
+                    </p>
+                    <div class="core-strengths">
+                        <div class="strength-tag"><i class="fa-solid fa-magnifying-glass"></i> Fault Isolation</div>
+                        <div class="strength-tag"><i class="fa-solid fa-microscope"></i> Micro-soldering</div>
+                        <div class="strength-tag"><i class="fa-solid fa-chart-line"></i> QC Auditing</div>
+                        <div class="strength-tag"><i class="fa-solid fa-users-gear"></i> RMA Workflow</div>
+                    </div>
+                </div>
+                <div class="about-specs-card">
+                    <h4 class="specs-title"><i class="fa-solid fa-clipboard-list"></i> Professional Summary</h4>
+                    <ul class="specs-list">
+                        <li><strong>Current Role:</strong> Technical Executive</li>
+                        <li><strong>Specialty:</strong> RMA Diagnostics & micro-soldering</li>
+                        <li><strong>Tooling:</strong> Oscilloscopes, DC Power Supply, Thermal Cameras, Hot Air Rework</li>
+                        <li><strong>Standards:</strong> NSDA Level 2 Certified (Valid till 2031)</li>
+                        <li><strong>Location:</strong> Dhaka, Bangladesh (New Elephant Road)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Case Studies & Repair Showcase -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title text-center">Featured <span>Case Studies</span></h2>
+            <p class="section-subtitle">Real-world hardware diagnostic scenarios, micro-soldering solutions, and RMA quality control highlights.</p>
+            
+            <!-- Category Filter Tabs -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="diagnostics">PCB Diagnostics</button>
+                <button class="filter-btn" data-filter="soldering">Micro-Soldering</button>
+                <button class="filter-btn" data-filter="qc">QC & RMA Audits</button>
+            </div>
+
+            <!-- Case Studies Grid -->
+            <div class="projects-grid">
+                <!-- Case Study 1 -->
+                <div class="project-card glass-panel spotlight-card" data-category="diagnostics">
+                    <div class="project-header">
+                        <span class="category-badge diagnostics"><i class="fa-solid fa-bolt"></i> PCB Diagnostics</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>Multi-Layer Logic Board Short Circuit Fault Isolation</h3>
+                    <p class="project-desc">Diagnosed a dead laptop board with a zero-resistance short on the main VCC_CORE line. Utilized thermal infrared camera under 1.0V current injection to pinpoint a failed MLCC capacitor inside a parallel bypass bank.</p>
+                    <div class="tech-tag-list">
+                        <span class="tech-tag">Thermal Camera</span>
+                        <span class="tech-tag">DC Injection</span>
+                        <span class="tech-tag">LCR Bridge</span>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="project-card glass-panel spotlight-card" data-category="soldering">
+                    <div class="project-header">
+                        <span class="category-badge soldering"><i class="fa-solid fa-microscope"></i> Micro-Soldering</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>Flagship Smartphone Water Damage & Trace Reconstruction</h3>
+                    <p class="project-desc">Reconstructed corroded display bus trace lines under 40x optical microscope. Applied 0.02mm micro-jumper wire techniques and insulated exposed ground copper with UV curable solder mask.</p>
+                    <div class="tech-tag-list">
+                        <span class="tech-tag">40x Microscope</span>
+                        <span class="tech-tag">UV Masking</span>
+                        <span class="tech-tag">0.02mm Jumper</span>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="project-card glass-panel spotlight-card" data-category="qc">
+                    <div class="project-header">
+                        <span class="category-badge qc"><i class="fa-solid fa-clipboard-check"></i> QC & RMA Audits</span>
+                        <span class="project-date">2024</span>
+                    </div>
+                    <h3>Industrial RMA Batch Inspection & Zero-Defect Workflow</h3>
+                    <p class="project-desc">Structured and executed reverse logistics inspection protocol for a batch of 500+ mobile communication modules, achieving a 99.4% post-repair zero-defect validation rate.</p>
+                    <div class="tech-tag-list">
+                        <span class="tech-tag">QC Checklist</span>
+                        <span class="tech-tag">RMA Workflow</span>
+                        <span class="tech-tag">Yield Audit</span>
+                    </div>
+                </div>
+
+                <!-- Case Study 4 -->
+                <div class="project-card glass-panel spotlight-card" data-category="soldering">
+                    <div class="project-header">
+                        <span class="category-badge soldering"><i class="fa-solid fa-microchip"></i> Micro-Soldering</span>
+                        <span class="project-date">2024</span>
+                    </div>
+                    <h3>BGA PMIC IC Reballing & Thermal Reflow</h3>
+                    <p class="project-desc">Successfully lifted damaged PMIC IC chip, cleaned lead-free pad oxidation with copper braid, reballed with Sn63Pb37 spheres, and reflowed target component restoring full power rail delivery.</p>
+                    <div class="tech-tag-list">
+                        <span class="tech-tag">Hot Air Station</span>
+                        <span class="tech-tag">BGA Stencil</span>
+                        <span class="tech-tag">Reflow Profile</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title text-center">Core <span>Expertise</span></h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>RMA Operations</h3>
+                        <p>Handling reverse logistics, diagnostics, repair logging, and post-repair quality assurance cycles.</p>
+                        <div class="skill-level-bar" data-level="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3>Component Repair</h3>
+                        <p>Specialized replacement of surface-mount devices (SMD), ball grid arrays (BGA), and logic boards.</p>
+                        <div class="skill-level-bar" data-level="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3>PCB Troubleshooting</h3>
+                        <p>Multi-layer trace analysis, reading boardviews/schematics, and tracing short circuits to ground.</p>
+                        <div class="skill-level-bar" data-level="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3>Hardware Diagnostics</h3>
+                        <p>Utilizing digital oscilloscopes, spectrum analyzers, DC load testers, and precision multimeters.</p>
+                        <div class="skill-level-bar" data-level="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-clipboard-check"></i>
+                        </div>
+                        <h3>Quality Control (QC)</h3>
+                        <p>Securing zero-defect manufacturing standards through rigorous testing protocols and inspection.</p>
+                        <div class="skill-level-bar" data-level="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <h3>Mobile Servicing</h3>
+                        <p>Complete structural and micro-component repairs on high-density mobile phone logic boards.</p>
+                        <div class="skill-level-bar" data-level="92%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-wave-square"></i>
+                        </div>
+                        <h3>SMD Soldering</h3>
+                        <p>Expert hand soldering of components as small as 0201/01005 packages and high-pin-count QFN/QFP packages.</p>
+                        <div class="skill-level-bar" data-level="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Office Applications</h3>
+                        <p>Compiling technical reports, logging RMA tickets, and managing audits using MS Office & spreadsheets.</p>
+                        <div class="skill-level-bar" data-level="88%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Diagnostic Equipment Arsenal Section -->
+        <section id="equipment" class="equipment-section">
+            <h2 class="section-title text-center">Diagnostic Equipment <span>Arsenal</span></h2>
+            <p class="section-subtitle">Professional hardware laboratory tooling utilized for high-precision PCB diagnosis, signal analysis, micro-soldering, and chip programming.</p>
+            
+            <div class="equipment-grid">
+                <!-- Tool 1: Digital Multimeter -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Measurement</span>
+                        <h3>Digital Multimeter</h3>
+                        <p>Diode line value testing, resistance checks, continuity tracing, and power rail voltage auditing.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 2: DC Bench Power Supply -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Power & Current</span>
+                        <h3>DC Bench Power Supply</h3>
+                        <p>Precision voltage injection, short circuit detection, and board boot cycle current analysis.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 3: DC Current Consumption Meter -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-wave-square"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Diagnostics</span>
+                        <h3>DC Current Consumption Meter</h3>
+                        <p>Real-time micro-amp fault tracking, ammeter profiling, and standby leak current analysis.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 4: Hot Air Rework Station -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Rework & Heating</span>
+                        <h3>Hot Air Rework Station</h3>
+                        <p>Controlled thermal profiling for BGA IC lifting, reflow soldering, and component removal.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 5: Precision Soldering Station -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Micro-Soldering</span>
+                        <h3>Precision Soldering Station</h3>
+                        <p>High-frequency thermal control tips for 0201/01005 SMD package micro-soldering and trace jumping.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 6: Digital Inspection Microscope -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-microscope"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Optical Review</span>
+                        <h3>Digital Inspection Microscope</h3>
+                        <p>High-magnification optical camera for micro-crack detection, corroded trace review, and BGA ball alignment.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 7: iCharger 6M USB Power Analyzer -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-charging-station"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Protocol Tester</span>
+                        <h3>iCharger 6M USB Power Analyzer</h3>
+                        <p>QC 3.0 fast-charging protocol testing, USB Power Delivery (PD) negotiation, and VBUS current testing.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 8: PCB Schematic & Circuit Analysis -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">CAD & Schematics</span>
+                        <h3>PCB Schematic & Circuit Analysis</h3>
+                        <p>Boardview CAD navigation, netlist trace tracking, diode reference map, and circuit schematic analysis.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 9: UART / USB-to-TTL Debugging Interface -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Serial Debug</span>
+                        <h3>UART / USB-to-TTL Interface</h3>
+                        <p>Log readout sniffing, kernel boot cycle tracing, and serial communication baud debugging.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 10: EEPROM & SPI Flash Programming Tools -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Firmware Programmer</span>
+                        <h3>EEPROM & SPI Flash Tools</h3>
+                        <p>High-speed SPI flash dumping, BIOS/Firmware re-flashing, and non-volatile memory chip programming.</p>
+                    </div>
+                </div>
+
+                <!-- Tool 11: ESD-Safe PCB Repair Workstation -->
+                <div class="equipment-card glass-panel spotlight-card">
+                    <div class="equipment-icon-box">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="equipment-content">
+                        <span class="tool-category">Lab Safety</span>
+                        <h3>ESD-Safe PCB Repair Workstation</h3>
+                        <p>Anti-static grounded matting, ESD protection wristbands, and static-dissipative tooling setup.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education and Accreditations Section -->
+        <section id="education" class="education-section">
+            <h2 class="section-title text-center">Education & <span>Credentials</span></h2>
+            
+            <div class="education-grid">
+                <!-- NSDA Certification Card -->
+                <div class="credential-card glass-panel highlight-border">
+                    <div class="card-header-icon cert-badge">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <div class="card-body-content">
+                        <div class="badge-row">
+                            <span class="date-badge active">2026</span>
+                            <span class="duration-badge">3 Days</span>
+                        </div>
+                        <h3>NSDA Certified Mobile Servicing Level-2 (RPL)</h3>
+                        <p class="institution">National Skills Development Authority (NSDA), Bangladesh</p>
+                        <p class="details-desc">Recognition of Prior Learning (RPL) Assessment. Government accredited skill validation matching international benchmark testing.</p>
+                        <div class="cert-meta-code">
+                            <span><strong>Code:</strong> RPL-LE-MPS-L2</span>
+                            <span><strong>Valid:</strong> Till 2031</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Servicing Card -->
+                <div class="credential-card glass-panel">
+                    <div class="card-header-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="card-body-content">
+                        <div class="badge-row">
+                            <span class="date-badge">2025</span>
+                            <span class="duration-badge">3 Months</span>
+                        </div>
+                        <h3>Mobile Servicing (Basic to Advanced)</h3>
+                        <p class="institution">ST Institute of Mobile Technology</p>
+                        <p class="details-desc">Mobile Hardware & Software Diagnosis, Troubleshooting & Repair. Hands-on intensive program focusing on schematics reading, multi-layer logic board troubleshooting, and micro-component repairs.</p>
+                    </div>
+                </div>
+
+                <!-- Academic BSS Card -->
+                <div class="credential-card glass-panel">
+                    <div class="card-header-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="card-body-content">
+                        <div class="badge-row">
+                            <span class="date-badge">Graduated: 2024</span>
+                        </div>
+                        <h3>Bachelor of Social Science (BSS)</h3>
+                        <p class="institution">Sociology | National University</p>
+                        <p class="details-desc">Strong analytical foundation in structural research methodology, social demographics, and professional communication standards.</p>
+                    </div>
+                </div>
+
+                <!-- Electronics Card -->
+                <div class="credential-card glass-panel">
+                    <div class="card-header-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="card-body-content">
+                        <div class="badge-row">
+                            <span class="date-badge">2020</span>
+                            <span class="duration-badge">6 Months</span>
+                        </div>
+                        <h3>Electronics Course</h3>
+                        <p class="institution">Jubo Unnayan</p>
+                        <p class="details-desc">Basic Electrical & Electronics. Awarded <strong>"Best Trainee Award"</strong> for outstanding performance in circuit diagnostics, SMD soldering, and hardware fault analysis.</p>
+                    </div>
+                </div>
+
+                <!-- Computer Applications Card -->
+                <div class="credential-card glass-panel">
+                    <div class="card-header-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="card-body-content">
+                        <div class="badge-row">
+                            <span class="date-badge">2020</span>
+                            <span class="duration-badge">6 Months</span>
+                        </div>
+                        <h3>Computer Office Applications</h3>
+                        <p class="institution">BTEB Technical Board</p>
+                        <p class="details-desc">MS Office, Google Workspace, Internet & ChatGPT. Specialized in compilation of technical reports, spreadsheet calculations, database entry, and AI tool operations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Dashboard / Contact -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title text-center">Contact <span>Hub</span></h2>
+            
+            <div class="contact-layout">
+                <!-- Info cards panel -->
+                <div class="contact-details">
+                    <h3>Get in Touch</h3>
+                    <p class="contact-intro">Have a complex diagnostics challenge or looking to expand your RMA team? Reach out via any channel below. You can copy my direct contacts with a single click.</p>
+                    
+                    <div class="contact-cards-stack">
+                        <div class="interactive-contact-card" data-copy="rejaulakash@gmail.com">
+                            <div class="card-main-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="card-text">
+                                <span class="label">Email Address</span>
+                                <span class="value">rejaulakash@gmail.com</span>
+                            </div>
+                            <button class="copy-indicator-btn" aria-label="Copy email address" title="Copy to Clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="interactive-contact-card" data-copy="+8801517824188">
+                            <div class="card-main-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="card-text">
+                                <span class="label">Phone / WhatsApp</span>
+                                <span class="value">+880 1517-824188</span>
+                            </div>
+                            <button class="copy-indicator-btn" aria-label="Copy phone number" title="Copy to Clipboard">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="interactive-contact-card no-click">
+                            <div class="card-main-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="card-text">
+                                <span class="label">Diagnostic Lab Location</span>
+                                <span class="value">New Elephant Road, Dhaka, Bangladesh</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modern Social Row -->
+                    <div class="social-wrapper">
+                        <span>Follow/Message Me:</span>
+                        <div class="social-row-container">
+                            <a href="https://linkedin.com/in/rejaul-akash" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/rejaul-akash" target="_blank" rel="noopener" aria-label="GitHub Developer Profile"><i class="fab fa-github"></i></a>
+                            <a href="https://www.fb.com/rka2019" target="_blank" rel="noopener" aria-label="Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://wa.me/8801517824188" target="_blank" rel="noopener" aria-label="WhatsApp Chat Link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Functional-styled Contact Form -->
+                <div class="contact-form-container glass-panel">
+                    <h3>Submit Service Inquiry</h3>
+                    <!-- Hidden Target iframe prevents browser page redirection -->
+                    <iframe name="hidden_form_iframe" id="hidden_form_iframe" style="display:none;"></iframe>
+
+                    <form id="contact-form" class="modern-form" action="https://formsubmit.co/rejaulakash@gmail.com" method="POST" target="hidden_form_iframe">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="New Service Inquiry from Portfolio">
+                        <div class="form-row-two">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" placeholder="your email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" name="subject" placeholder="RMA Consulting / Component Repair Request" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-message">Details / Issue Description</label>
+                            <textarea id="form-message" name="message" rows="5" placeholder="Please describe the PCB fault, model details, or project scope..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-btn primary-btn submit-btn">
+                            <span class="btn-text">Transmit Message</span> <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="form-feedback-toast" class="toast-message"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Copy Toast Alert -->
+    <div id="clipboard-toast" class="toast-alert" role="alert" aria-live="assertive">Copied to clipboard!</div>
+
+    <!-- Floating Back-to-Top Button -->
+    <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll back to top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Rejaul Karim. Designed for maximum hardware precision.</p>
+            <p class="tech-subfooter"><i class="fa-solid fa-code-branch"></i> Rev-Logistics.Active | System Status: Optimal</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Injection -->
+    <script src="js/script.js"></script>
+</body>
+</html>
