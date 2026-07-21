@@ -178,50 +178,92 @@ if (themeToggle) {
 // SCROLL SPY & NAVBAR NAVIGATION
 // ==========================================
 
-const navLinks = document.querySelectorAll(".nav-link");
-const sections = document.querySelectorAll("section");
+// ==========================================
+// UNIFIED SEAMLESS FLOW NAVIGATION & SCROLLSPY
+// ==========================================
 
-function scrollSpy() {
-    let currentSection = "";
-    
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        
-        if (window.scrollY >= sectionTop - 120) {
-            currentSection = section.getAttribute("id");
-        }
+function initSmoothNavigation() {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const sections = document.querySelectorAll("main > section");
+    const navbarHeight = 80;
+
+    function scrollToSection(targetId) {
+        if (!targetId) return;
+        const cleanId = targetId.startsWith("#") ? targetId.substring(1) : targetId;
+        const targetSection = document.getElementById(cleanId);
+        if (!targetSection) return;
+
+        const targetTop = targetSection.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+        window.scrollTo({
+            top: targetTop,
+            behavior: "smooth"
+        });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", (e) => {
+            const href = anchor.getAttribute("href");
+            if (href && href !== "#" && document.getElementById(href.replace("#", ""))) {
+                e.preventDefault();
+                scrollToSection(href);
+                history.pushState(null, "", href);
+
+                const navMenu = document.getElementById("nav-menu");
+                const hamburger = document.getElementById("hamburger-btn");
+                if (navMenu && hamburger) {
+                    navMenu.classList.remove("open");
+                    hamburger.classList.remove("open");
+                }
+            }
+        });
     });
 
-    navLinks.forEach(link => {
-        link.classList.remove("active");
-        if (link.getAttribute("href") === `#${currentSection}`) {
-            link.classList.add("active");
-        }
+    window.addEventListener("scroll", () => {
+        let currentId = "";
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - navbarHeight - 120;
+            if (window.scrollY >= sectionTop) {
+                currentId = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            if (link.getAttribute("href") === `#${currentId}`) {
+                link.classList.add("active");
+            } else {
+                link.classList.remove("active");
+            }
+        });
     });
+
+    if (window.location.hash) {
+        setTimeout(() => {
+            scrollToSection(window.location.hash);
+        }, 300);
+    }
 }
 
-window.addEventListener("scroll", scrollSpy);
-
 // ==========================================
-// MOBILE MENU CONTROLS
+// MOBILE MENU CONTROLS & OUTSIDE CLICK CLOSE
 // ==========================================
 
 const hamburger = document.getElementById("hamburger-btn");
 const navMenu = document.getElementById("nav-menu");
 
 if (hamburger && navMenu) {
-    hamburger.addEventListener("click", () => {
+    hamburger.addEventListener("click", (e) => {
+        e.stopPropagation();
         hamburger.classList.toggle("open");
         navMenu.classList.toggle("open");
     });
 
-    // Close menu when clicking nav links
-    navLinks.forEach(link => {
-        link.addEventListener("click", () => {
-            hamburger.classList.remove("open");
-            navMenu.classList.remove("open");
-        });
+    document.addEventListener("click", (e) => {
+        if (navMenu.classList.contains("open")) {
+            if (!navMenu.contains(e.target) && !hamburger.contains(e.target)) {
+                hamburger.classList.remove("open");
+                navMenu.classList.remove("open");
+            }
+        }
     });
 }
 
@@ -320,11 +362,13 @@ function initSkillBars() {
             if (entry.isIntersecting) {
                 const bar = entry.target;
                 const level = bar.getAttribute("data-level");
-                bar.style.setProperty("--skill-width", level);
-                observer.unobserve(bar); // Stop observing once animated
+                if (level) {
+                    bar.style.setProperty("--skill-width", level);
+                }
+                observer.unobserve(bar);
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.2 });
 
     skillBars.forEach(bar => observer.observe(bar));
 }
@@ -344,8 +388,8 @@ function animateCounters() {
                 const target = parseInt(counter.getAttribute("data-count"), 10);
                 const suffix = counter.getAttribute("data-suffix") || "";
                 let count = 0;
-                const duration = 1200; // ms
-                const stepTime = 30;
+                const duration = 1000; // ms
+                const stepTime = 25;
                 const steps = duration / stepTime;
                 const increment = target / steps;
 
@@ -384,9 +428,9 @@ function updateDhakaClock() {
             second: "2-digit",
             hour12: true
         });
-        clockElement.textContent = `Dhaka, BD (${timeString})`;
+        clockElement.textContent = timeString;
     } catch (e) {
-        clockElement.textContent = "Dhaka, BD (GMT+6)";
+        clockElement.textContent = "12:00:00 AM";
     }
 }
 
@@ -452,7 +496,7 @@ function initDownloadCV() {
     if (!downloadBtn) return;
 
     downloadBtn.addEventListener("click", () => {
-        triggerToast("Downloading RMA & QC Specialist CV (PDF)...");
+        triggerToast("Opening RMA & QC Specialist CV (PDF)...");
     });
 }
 
@@ -489,6 +533,9 @@ window.addEventListener("load", () => {
     const currentTheme = getSystemTheme();
     applyTheme(currentTheme);
     
+    // Smooth Navigation setup
+    initSmoothNavigation();
+
     // Canvas background startup
     initCanvas();
     animateCanvas();
