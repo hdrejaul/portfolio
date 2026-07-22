@@ -1,3 +1,10 @@
+<p align="center">
+<img src="banner.png" width="100%">
+</p>
+
+# 👋 Rejaul Karim
+
+RMA & Hardware Specialist
 <h1 align="center">👋 Hi, I'm Rejaul Karim</h1>
 
 <h3 align="center">
@@ -116,7 +123,7 @@ https://github.com/hdrejaul
 
 📧 Email
 
-your-email@example.com
+rejaulakash@gmail.com
 
 ---
 
