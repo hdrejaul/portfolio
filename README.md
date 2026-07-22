@@ -113,7 +113,7 @@ Office & Spreadsheets Audit     [███████████████�
 </p>
 
 ```
-📍 Location: 291 New Elephant Road, Dhaka, Bangladesh
+📍 Location: New Elephant Road, Dhaka, Bangladesh
 📧 Email: rejaulakash@gmail.com
 📞 Phone: +880 1517-824188
 ```
