@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" width="100%" alt="Rejaul Karim Portfolio Banner">
+  <img src="banner.png" style="max-width: 100%; height: auto;" width="100%" alt="Rejaul Karim Portfolio Banner">
 </p>
 
 <div align="center">
@@ -9,19 +9,19 @@
 
   <p>
     <a href="https://hdrejaul.github.io/portfolio/#" target="_blank">
-      <img src="https://img.shields.io/badge/🚀_VISIT_LIVE_PORTFOLIO_WEBSITE-00B4D8?style=for-the-badge&logo=google-chrome&logoColor=white" height="45" alt="Visit Live Portfolio">
+      <img src="https://img.shields.io/badge/🚀_VISIT_LIVE_PORTFOLIO_WEBSITE-00B4D8?style=for-the-badge&logo=google-chrome&logoColor=white" style="max-width:100%; height:auto;" height="45" alt="Visit Live Portfolio">
     </a>
   </p>
 
   <p>
     <a href="https://hdrejaul.github.io/portfolio/RMA%20%26%20QC%20Specialist%20CV%20-%20Rejaul%20Karim.pdf" target="_blank">
-      <img src="https://img.shields.io/badge/📄_Download_CV_(PDF)-0077B6?style=for-the-badge&logoColor=white" alt="Download CV">
+      <img src="https://img.shields.io/badge/📄_Download_CV_(PDF)-0077B6?style=for-the-badge&logoColor=white" style="max-width:100%;" alt="Download CV">
     </a>
     <a href="mailto:rejaulakash@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/✉️_Email_Me-03045E?style=for-the-badge&logoColor=white" alt="Email Me">
+      <img src="https://img.shields.io/badge/✉️_Email_Me-03045E?style=for-the-badge&logoColor=white" style="max-width:100%;" alt="Email Me">
     </a>
     <a href="https://wa.me/8801517824188" target="_blank">
-      <img src="https://img.shields.io/badge/💬_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+      <img src="https://img.shields.io/badge/💬_WhatsApp-25D366?style=for-the-badge&logoColor=white" style="max-width:100%;" alt="WhatsApp">
     </a>
   </p>
 
@@ -42,7 +42,7 @@ Click below to visit the live site in a new tab:
 
 <p align="center">
   <a href="https://hdrejaul.github.io/portfolio/#" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_https%3A%2F%2Fhdrejaul.github.io%2Fportfolio%2F%23-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Website Link">
+    <img src="https://img.shields.io/badge/🌐_https%3A%2F%2Fhdrejaul.github.io%2Fportfolio%2F%23-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" style="max-width:100%;" alt="Live Website Link">
   </a>
 </p>
 
@@ -60,29 +60,29 @@ Recognized for deploying structured fault-isolation protocols, micro-soldering p
 
 | Category | Equipment / Tooling | Technical Application |
 | :--- | :--- | :--- |
-| **Measurement** | **Digital Multimeter** | Diode line value testing, resistance checks & power rail voltage auditing. |
-| **Power & Current** | **DC Bench Power Supply** | Precision voltage injection, short circuit detection & boot current profiling. |
-| **Diagnostics** | **DC Current Consumption Meter** | Real-time micro-amp fault tracking & standby current leak analysis. |
-| **Rework** | **Hot Air Rework Station** | Controlled thermal profiling for BGA IC lifting, reflow & component removal. |
-| **Micro-Soldering** | **Precision Soldering Station** | High-frequency thermal tips for 0201/01005 SMD micro-soldering & jumpers. |
-| **Optical Review** | **Digital Inspection Microscope** | Optical magnification for micro-crack detection & BGA ball alignment. |
-| **Protocol Tester** | **iCharger 6M USB Analyzer** | QC 3.0 fast-charging protocol testing & USB Power Delivery testing. |
-| **CAD & Schematics** | **PCB Schematic & Circuit Analysis** | Boardview CAD navigation, netlist trace tracking & circuit schematic mapping. |
-| **Serial Debug** | **UART / USB-to-TTL Interface** | Log readout sniffing, kernel boot cycle tracing & serial debugging. |
-| **Firmware** | **EEPROM & SPI Flash Tools** | High-speed SPI flash dumping, BIOS re-flashing & non-volatile memory tools. |
-| **Lab Safety** | **ESD-Safe Repair Workstation** | Anti-static grounded matting, ESD protection & static-dissipative setup. |
+| **Measurement** | **Digital Multimeter** | Diode line value testing & power rail voltage auditing. |
+| **Power** | **DC Bench Power Supply** | Precision voltage injection & short circuit detection. |
+| **Current** | **DC Current Meter** | Real-time micro-amp fault tracking & current leaks. |
+| **Rework** | **Hot Air Rework Station** | Thermal profiling for BGA IC reflow & removal. |
+| **Soldering** | **Precision Soldering Station** | 0201/01005 SMD micro-soldering & jumpers. |
+| **Optics** | **Digital Inspection Microscope** | Optical magnification for micro-crack detection. |
+| **Protocol** | **iCharger 6M USB Analyzer** | QC 3.0 fast-charging & USB PD testing. |
+| **Schematics** | **PCB Circuit Analysis** | Boardview CAD navigation & netlist trace tracking. |
+| **Debug** | **UART / USB-to-TTL** | Boot cycle log tracing & serial debugging. |
+| **Firmware** | **EEPROM & SPI Flash Tools** | SPI flash dumping & BIOS re-flashing tools. |
+| **Safety** | **ESD Repair Workstation** | Anti-static matting & static-dissipative setup. |
 
 ---
 
-## 🎓 Education & Professional Credentials
+## 🎓 Education & Credentials
 
-| Year | Credential / Degree | Institution / Organization | Key Focus / Validation Code |
-| :---: | :--- | :--- | :--- |
-| **2026** | **NSDA Certified Mobile Servicing Level-2 (RPL)** | National Skills Development Authority (NSDA), BD | Code: `RPL-LE-MPS-L2` (Valid till 2031) |
-| **2025** | **Mobile Servicing (Basic to Advanced)** | ST Institute of Mobile Technology | Hardware & Software Diagnosis (3 Months) |
-| **2024** | **Bachelor of Social Science (BSS)** | National University | Degree in Sociology (Passed) |
-| **2020** | **Basic Electrical & Electronics** | Jubo Unnayan | Awarded **"Best Trainee"** (6 Months) |
-| **2020** | **Computer Applications** | Technical Board (BTEB) | MS Office, Google Workspace, ChatGPT (6 Months) |
+| Year | Credential / Degree | Institution / Code |
+| :---: | :--- | :--- |
+| **2026** | **NSDA Certified Mobile Servicing Level-2** | National Skills Development Authority (`RPL-LE-MPS-L2`) |
+| **2025** | **Mobile Servicing (Basic to Advanced)** | ST Institute of Mobile Technology |
+| **2024** | **Bachelor of Social Science (BSS)** | National University (Sociology) |
+| **2020** | **Basic Electrical & Electronics** | Jubo Unnayan (*Awarded Best Trainee*) |
+| **2020** | **Computer Applications** | Technical Board (BTEB) |
 
 ---
 
@@ -111,7 +111,7 @@ Office & Spreadsheets Audit     [███████████████�
 ## 📬 Connect with Me
 
 <p align="left">
-  <a href="https://hdrejaul.github.io/portfolio/#" target="_blank"><img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
+  <a href="https://hdrejaul.github.io/portfolio/#" target="_blank"><img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" style="max-width:100%;" alt="Website"></a>
   <a href="https://linkedin.com/in/rejaul-akash" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/hdrejaul" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://wa.me/8801517824188" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
