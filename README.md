@@ -1,10 +1,7 @@
 <p align="center">
-<img src="banner.png" width="100%">
+  <img src="banner.png" width="100%" alt="Rejaul Karim Banner">
 </p>
 
-# 👋 Rejaul Karim
-
-RMA & Hardware Specialist
 <h1 align="center">👋 Hi, I'm Rejaul Karim</h1>
 
 <h3 align="center">
@@ -12,43 +9,48 @@ RMA & Hardware Specialist | Electronics PCB Diagnostics | Embedded Hardware Repa
 </h3>
 
 <p align="center">
-<img src="https://img.shields.io/badge/RMA-Specialist-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/PCB-Diagnostics-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/Hardware-Repair-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/QC-Engineer-red?style=for-the-badge">
+
+<img alt="RMA Specialist" src="https://img.shields.io/badge/RMA_SPECIALIST-0D1117?style=for-the-badge&logoColor=white">
+
+<img alt="PCB Diagnostics" src="https://img.shields.io/badge/PCB_DIAGNOSTICS-0D1117?style=for-the-badge&logoColor=white">
+
+<img alt="Hardware Repair" src="https://img.shields.io/badge/HARDWARE_REPAIR-0D1117?style=for-the-badge&logoColor=white">
+
+<img alt="QC Engineer" src="https://img.shields.io/badge/QC_ENGINEER-0D1117?style=for-the-badge&logoColor=white">
+
 </p>
 
 ---
 
-## 🌐 Live Portfolio
+# 🌐 Live Portfolio
 
-🔗 **Website**
+### 🔗 Website
 
 https://hdrejaul.github.io/portfolio/
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-I specialize in diagnosing, repairing, and validating electronic hardware with expertise in board-level troubleshooting, embedded systems, and biometric attendance devices. My experience includes RMA operations, quality assurance, and component-level electronics repair.
+I specialize in Electronics PCB Diagnostics, Embedded Hardware Repair, Board-Level Troubleshooting, and RMA Quality Control. My expertise includes biometric attendance devices, firmware recovery, hardware validation, and component-level repair.
 
 ---
 
-## 🔧 Core Expertise
+# 🔧 Core Expertise
 
 - Electronics PCB Diagnostics
 - Board-Level Troubleshooting
 - Embedded Hardware Repair
-- Biometric Attendance Device Repair
-- Fingerprint Terminal Repair
+- Attendance & Biometric Device Repair
 - Firmware Flashing & Recovery
-- Quality Control (QC)
-- Root Cause Analysis (RCA)
 - PCB Schematic & Circuit Analysis
+- Component-Level Repair
+- Root Cause Analysis (RCA)
+- Quality Control (QC)
 
 ---
 
-## 🛠 Diagnostic Equipment Arsenal
+# 🛠 Diagnostic Equipment Arsenal
 
 - Digital Multimeter
 - DC Bench Power Supply
@@ -64,29 +66,21 @@ I specialize in diagnosing, repairing, and validating electronic hardware with e
 
 ---
 
-## 💻 Technical Skills
+# 💻 Technical Skills
 
-✔ Electronics Hardware Repair
-
-✔ PCB Diagnostics
-
-✔ Embedded Systems
-
-✔ Firmware Troubleshooting
-
-✔ Component-Level Repair
-
-✔ Quality Control & Inspection
-
-✔ Failure Analysis
-
-✔ Preventive Maintenance
-
-✔ Technical Documentation
+- Electronics Hardware Repair
+- PCB Diagnostics
+- Embedded Hardware Repair
+- Firmware Troubleshooting
+- Component-Level Repair
+- Failure Analysis
+- Quality Assurance
+- Preventive Maintenance
+- Technical Documentation
 
 ---
 
-## 💡 Technologies
+# 💡 Technologies
 
 - HTML5
 - CSS3
@@ -97,21 +91,17 @@ I specialize in diagnosing, repairing, and validating electronic hardware with e
 
 ---
 
-## 📂 Featured Portfolio
+# 📂 Featured Portfolio
 
-🔹 Electronics PCB Diagnostics
-
-🔹 Attendance Device Repair
-
-🔹 Hardware Troubleshooting
-
-🔹 Embedded Systems Repair
-
-🔹 RMA & QC Engineering
+- Electronics PCB Diagnostics
+- Embedded Hardware Repair
+- Attendance Device Repair
+- Hardware Troubleshooting
+- RMA & QC Engineering
 
 ---
 
-## 📫 Contact
+# 📫 Contact
 
 🌐 Portfolio
 
@@ -129,7 +119,7 @@ rejaulakash@gmail.com
 
 <p align="center">
 
-### "Transforming Electronic Failures into Reliable Solutions."
+### Transforming Electronic Failures into Reliable Solutions.
 
 ⭐ Thanks for visiting my GitHub Portfolio.
 
