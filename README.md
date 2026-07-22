@@ -1,12 +1,22 @@
+<p align="center">
+  <img src="banner.png" width="100%" alt="Rejaul Karim Portfolio Banner">
+</p>
+
 <div align="center">
 
   <h1>🔬 Rejaul Karim</h1>
   <p><strong>Technical Executive | RMA & Electronics PCB Diagnostics Specialist | Micro-Soldering Expert</strong></p>
 
   <p>
-    <a href="https://hdrejaul.github.io/portfolio/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-00B4D8?style=for-the-badge&logoColor=white" alt="Live Portfolio"></a>
+    <a href="https://hdrejaul.github.io/portfolio/#">
+      <img src="https://img.shields.io/badge/🚀_VISIT_LIVE_PORTFOLIO_WEBSITE-00B4D8?style=for-the-badge&logo=google-chrome&logoColor=white" height="45" alt="Visit Live Portfolio">
+    </a>
+  </p>
+
+  <p>
     <a href="https://hdrejaul.github.io/portfolio/RMA%20%26%20QC%20Specialist%20CV%20-%20Rejaul%20Karim.pdf"><img src="https://img.shields.io/badge/📄_Download_CV_(PDF)-0077B6?style=for-the-badge&logoColor=white" alt="Download CV"></a>
     <a href="mailto:rejaulakash@gmail.com"><img src="https://img.shields.io/badge/✉️_Email_Me-03045E?style=for-the-badge&logoColor=white" alt="Email Me"></a>
+    <a href="https://wa.me/8801517824188"><img src="https://img.shields.io/badge/💬_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
   </p>
 
   <p>
@@ -17,6 +27,18 @@
   </p>
 
 </div>
+
+---
+
+## 🌐 Live Website
+
+Click the button below to explore the interactive live portfolio:
+
+<p align="center">
+  <a href="https://hdrejaul.github.io/portfolio/#">
+    <img src="https://img.shields.io/badge/🌐_https%3A%2F%2Fhdrejaul.github.io%2Fportfolio%2F%23-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Website Link">
+  </a>
+</p>
 
 ---
 
@@ -83,7 +105,7 @@ Office & Spreadsheets Audit     [███████████████�
 ## 📬 Connect with Me
 
 <p align="left">
-  <a href="https://hdrejaul.github.io/portfolio/"><img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
+  <a href="https://hdrejaul.github.io/portfolio/#"><img src="https://img.shields.io/badge/Website-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
   <a href="https://linkedin.com/in/rejaul-akash"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/hdrejaul"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://wa.me/8801517824188"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
