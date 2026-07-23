@@ -11,6 +11,9 @@
     <a href="https://hdrejaul.github.io/portfolio/#" target="_blank">
       <img src="https://img.shields.io/badge/🚀_VISIT_LIVE_PORTFOLIO_WEBSITE-00B4D8?style=for-the-badge&logo=google-chrome&logoColor=white" style="max-width:100%; height:auto;" height="45" alt="Visit Live Portfolio">
     </a>
+    <a href="https://hdrejaul.github.io/expense-tracker/" target="_blank">
+      <img src="https://img.shields.io/badge/💳_EXPENSE_TRACKER_APP-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" style="max-width:100%; height:auto;" height="45" alt="Expense Tracker App">
+    </a>
   </p>
 
   <p>
@@ -36,13 +39,17 @@
 
 ---
 
-## 🌐 Live Portfolio Website
+## 🌐 Live Websites & Application Demos
 
-Click below to visit the live site in a new tab:
+Click below to visit the live sites in a new tab:
 
 <p align="center">
   <a href="https://hdrejaul.github.io/portfolio/#" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_https%3A%2F%2Fhdrejaul.github.io%2Fportfolio%2F%23-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" style="max-width:100%;" alt="Live Website Link">
+    <img src="https://img.shields.io/badge/🌐_Portfolio_Website-0077B6?style=for-the-badge&logo=githubpages&logoColor=white" style="max-width:100%;" alt="Live Portfolio Website">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hdrejaul.github.io/expense-tracker/" target="_blank">
+    <img src="https://img.shields.io/badge/💳_Expense_Tracker_App-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" style="max-width:100%;" alt="Live Expense Tracker App">
   </a>
 </p>
 
@@ -105,6 +112,16 @@ Office & Spreadsheets Audit     [███████████████�
 - **Smartphone Water Damage Trace Reconstruction**: 40x optical microscope inspection with 0.02mm micro-jumpering and UV mask curing.
 - **Industrial RMA Batch Inspection & Yield Audit**: Structured batch audit of 500+ modules securing a 99.4% post-repair yield rate.
 - **BGA PMIC IC Reballing & Thermal Reflow**: Lead-free pad oxidation removal, Sn63Pb37 BGA stencil reballing, and thermal reflow.
+
+---
+
+## 🚀 Featured Software & Web Projects
+
+| Project Name | Description | Live Demo / Access |
+| :--- | :--- | :---: |
+| **💳 Expense Tracker App** | Modern web application designed for tracking personal expenses, managing budgets, and calculating real-time financial metrics. | [<img src="https://img.shields.io/badge/🚀_DEMO_CLICK_HERE-0077B6?style=flat-square&logo=google-chrome&logoColor=white" alt="Expense Tracker Live Demo">](https://hdrejaul.github.io/expense-tracker/) |
+
+- **[Expense Tracker Application (Demo Click Here)](https://hdrejaul.github.io/expense-tracker/)**: Interactive budgeting & expense management web application.
 
 ---
 
