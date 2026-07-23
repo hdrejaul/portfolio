@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" style="max-width: 100%; height: auto;" width="100%" alt="Rejaul Karim Portfolio Banner">
+  <img src="banner.jpg" style="max-width: 100%; height: auto;" width="100%" alt="Rejaul Karim Portfolio Banner">
 </p>
 
 <div align="center">
